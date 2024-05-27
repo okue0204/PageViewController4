@@ -13,9 +13,18 @@
 		3C17C4842C034A3700E895A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C17C4822C034A3700E895A0 /* Main.storyboard */; };
 		3C17C4862C034A3800E895A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C17C4852C034A3800E895A0 /* Assets.xcassets */; };
 		3C17C4892C034A3800E895A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C17C4872C034A3800E895A0 /* LaunchScreen.storyboard */; };
-		3C17C4942C034A3800E895A0 /* PageViewController4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17C4932C034A3800E895A0 /* PageViewController4Tests.swift */; };
-		3C17C49E2C034A3800E895A0 /* PageViewController4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17C49D2C034A3800E895A0 /* PageViewController4UITests.swift */; };
-		3C17C4A02C034A3800E895A0 /* PageViewController4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17C49F2C034A3800E895A0 /* PageViewController4UITestsLaunchTests.swift */; };
+		3C17C4B02C03513E00E895A0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17C4AF2C03513E00E895A0 /* HeaderView.swift */; };
+		3C17C4B22C03514400E895A0 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C17C4B12C03514400E895A0 /* HeaderView.xib */; };
+		3C17C4B42C03518600E895A0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17C4B32C03518600E895A0 /* UIView.swift */; };
+		3C6CBC692C03D33200BF8728 /* LatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBC682C03D33200BF8728 /* LatestViewController.swift */; };
+		3C6CBC6B2C03D33800BF8728 /* LatestViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CBC6A2C03D33800BF8728 /* LatestViewController.storyboard */; };
+		3C6CBC6D2C03D34C00BF8728 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBC6C2C03D34C00BF8728 /* ProgramViewController.swift */; };
+		3C6CBC6F2C03D35100BF8728 /* ProgramViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CBC6E2C03D35100BF8728 /* ProgramViewController.storyboard */; };
+		3C6CBC712C03D37600BF8728 /* DownloadCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBC702C03D37600BF8728 /* DownloadCompleteViewController.swift */; };
+		3C6CBC732C03D37C00BF8728 /* DownloadCompleteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CBC722C03D37C00BF8728 /* DownloadCompleteViewController.storyboard */; };
+		3C6CBC752C03D38900BF8728 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBC742C03D38900BF8728 /* PlayListViewController.swift */; };
+		3C6CBC772C03D38F00BF8728 /* PlayListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6CBC762C03D38F00BF8728 /* PlayListViewController.storyboard */; };
+		3C6CBC792C03D3A600BF8728 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6CBC782C03D3A600BF8728 /* UIStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +54,19 @@
 		3C17C4882C034A3800E895A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C17C48A2C034A3800E895A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C17C48F2C034A3800E895A0 /* PageViewController4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C17C4932C034A3800E895A0 /* PageViewController4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController4Tests.swift; sourceTree = "<group>"; };
 		3C17C4992C034A3800E895A0 /* PageViewController4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C17C49D2C034A3800E895A0 /* PageViewController4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController4UITests.swift; sourceTree = "<group>"; };
-		3C17C49F2C034A3800E895A0 /* PageViewController4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C17C4AF2C03513E00E895A0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3C17C4B12C03514400E895A0 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		3C17C4B32C03518600E895A0 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		3C6CBC682C03D33200BF8728 /* LatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestViewController.swift; sourceTree = "<group>"; };
+		3C6CBC6A2C03D33800BF8728 /* LatestViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LatestViewController.storyboard; sourceTree = "<group>"; };
+		3C6CBC6C2C03D34C00BF8728 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		3C6CBC6E2C03D35100BF8728 /* ProgramViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgramViewController.storyboard; sourceTree = "<group>"; };
+		3C6CBC702C03D37600BF8728 /* DownloadCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCompleteViewController.swift; sourceTree = "<group>"; };
+		3C6CBC722C03D37C00BF8728 /* DownloadCompleteViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DownloadCompleteViewController.storyboard; sourceTree = "<group>"; };
+		3C6CBC742C03D38900BF8728 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
+		3C6CBC762C03D38F00BF8728 /* PlayListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayListViewController.storyboard; sourceTree = "<group>"; };
+		3C6CBC782C03D3A600BF8728 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				3C17C47B2C034A3700E895A0 /* PageViewController4 */,
-				3C17C4922C034A3800E895A0 /* PageViewController4Tests */,
-				3C17C49C2C034A3800E895A0 /* PageViewController4UITests */,
 				3C17C47A2C034A3700E895A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +117,9 @@
 			children = (
 				3C17C47C2C034A3700E895A0 /* AppDelegate.swift */,
 				3C17C47E2C034A3700E895A0 /* SceneDelegate.swift */,
-				3C17C4802C034A3700E895A0 /* ViewController.swift */,
-				3C17C4822C034A3700E895A0 /* Main.storyboard */,
+				3C17C4AE2C03512900E895A0 /* extensions */,
+				3C17C4AD2C03512200E895A0 /* viewControllers */,
+				3C17C4AC2C03511B00E895A0 /* views */,
 				3C17C4852C034A3800E895A0 /* Assets.xcassets */,
 				3C17C4872C034A3800E895A0 /* LaunchScreen.storyboard */,
 				3C17C48A2C034A3800E895A0 /* Info.plist */,
@@ -110,21 +127,39 @@
 			path = PageViewController4;
 			sourceTree = "<group>";
 		};
-		3C17C4922C034A3800E895A0 /* PageViewController4Tests */ = {
+		3C17C4AC2C03511B00E895A0 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3C17C4932C034A3800E895A0 /* PageViewController4Tests.swift */,
+				3C17C4AF2C03513E00E895A0 /* HeaderView.swift */,
+				3C17C4B12C03514400E895A0 /* HeaderView.xib */,
 			);
-			path = PageViewController4Tests;
+			path = views;
 			sourceTree = "<group>";
 		};
-		3C17C49C2C034A3800E895A0 /* PageViewController4UITests */ = {
+		3C17C4AD2C03512200E895A0 /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3C17C49D2C034A3800E895A0 /* PageViewController4UITests.swift */,
-				3C17C49F2C034A3800E895A0 /* PageViewController4UITestsLaunchTests.swift */,
+				3C17C4802C034A3700E895A0 /* ViewController.swift */,
+				3C17C4822C034A3700E895A0 /* Main.storyboard */,
+				3C6CBC682C03D33200BF8728 /* LatestViewController.swift */,
+				3C6CBC6A2C03D33800BF8728 /* LatestViewController.storyboard */,
+				3C6CBC6C2C03D34C00BF8728 /* ProgramViewController.swift */,
+				3C6CBC6E2C03D35100BF8728 /* ProgramViewController.storyboard */,
+				3C6CBC702C03D37600BF8728 /* DownloadCompleteViewController.swift */,
+				3C6CBC722C03D37C00BF8728 /* DownloadCompleteViewController.storyboard */,
+				3C6CBC742C03D38900BF8728 /* PlayListViewController.swift */,
+				3C6CBC762C03D38F00BF8728 /* PlayListViewController.storyboard */,
 			);
-			path = PageViewController4UITests;
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		3C17C4AE2C03512900E895A0 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C17C4B32C03518600E895A0 /* UIView.swift */,
+				3C6CBC782C03D3A600BF8728 /* UIStoryboard.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6CBC6B2C03D33800BF8728 /* LatestViewController.storyboard in Resources */,
 				3C17C4892C034A3800E895A0 /* LaunchScreen.storyboard in Resources */,
+				3C6CBC6F2C03D35100BF8728 /* ProgramViewController.storyboard in Resources */,
+				3C6CBC772C03D38F00BF8728 /* PlayListViewController.storyboard in Resources */,
+				3C6CBC732C03D37C00BF8728 /* DownloadCompleteViewController.storyboard in Resources */,
 				3C17C4862C034A3800E895A0 /* Assets.xcassets in Resources */,
 				3C17C4842C034A3700E895A0 /* Main.storyboard in Resources */,
+				3C17C4B22C03514400E895A0 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C17C4B42C03518600E895A0 /* UIView.swift in Sources */,
+				3C6CBC6D2C03D34C00BF8728 /* ProgramViewController.swift in Sources */,
 				3C17C4812C034A3700E895A0 /* ViewController.swift in Sources */,
 				3C17C47D2C034A3700E895A0 /* AppDelegate.swift in Sources */,
 				3C17C47F2C034A3700E895A0 /* SceneDelegate.swift in Sources */,
+				3C17C4B02C03513E00E895A0 /* HeaderView.swift in Sources */,
+				3C6CBC792C03D3A600BF8728 /* UIStoryboard.swift in Sources */,
+				3C6CBC692C03D33200BF8728 /* LatestViewController.swift in Sources */,
+				3C6CBC712C03D37600BF8728 /* DownloadCompleteViewController.swift in Sources */,
+				3C6CBC752C03D38900BF8728 /* PlayListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C17C4942C034A3800E895A0 /* PageViewController4Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C17C49E2C034A3800E895A0 /* PageViewController4UITests.swift in Sources */,
-				3C17C4A02C034A3800E895A0 /* PageViewController4UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,9 +501,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = okue.PageViewController4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -485,9 +533,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = okue.PageViewController4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageViewController4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDq-Xr-Zp1" customClass="HeaderView" customModule="PageViewController4" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qJj-a5-NC9"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Alw-8z-gBc">
+                                <rect key="frame" x="0.0" y="109" width="321" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeh-WJ-Mh2">
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="8" maxX="6" maxY="8"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="最新">
+                                            <color key="titleColor" name="base_background"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapLatestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyI-vS-Cwl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNJ-UG-l7o">
+                                        <rect key="frame" x="48" y="0.0" width="42" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="8" maxX="6" maxY="8"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="番組">
+                                            <color key="titleColor" name="base_background"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPragramButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8nO-MW-giE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cm-YY-Y20">
+                                        <rect key="frame" x="96" y="0.0" width="132" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="8" maxX="6" maxY="8"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="ダウンロード済み">
+                                            <color key="titleColor" name="base_background"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapDownloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GI4-Uu-zAP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yg4-E9-zSQ">
+                                        <rect key="frame" x="234" y="0.0" width="87" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="8" maxX="6" maxY="8"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="再生リスト">
+                                            <color key="titleColor" name="base_background"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapPlaylistButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ack-IS-QKG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3Vu-BS-4aw"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8n-3r-R0t">
+                                <rect key="frame" x="9" y="159" width="24" height="3"/>
+                                <color key="backgroundColor" name="base_background"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="IBB-Ja-qGF"/>
+                                    <constraint firstAttribute="width" constant="24" id="il8-ag-2ct"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mf2-OV-nOL">
+                                <rect key="frame" x="0.0" y="162" width="393" height="690"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTF-JZ-b9O">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="59"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="7cP-yQ-Y7Z">
+                                <rect key="frame" x="130" y="692.33333333333337" width="133.33333333333337" height="25.666666666666629"/>
+                                <color key="pageIndicatorTintColor" systemColor="systemMintColor"/>
+                                <color key="currentPageIndicatorTintColor" name="base_background"/>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Mf2-OV-nOL" secondAttribute="bottom" id="0i4-qh-ply"/>
+                            <constraint firstItem="Mf2-OV-nOL" firstAttribute="top" secondItem="e8n-3r-R0t" secondAttribute="bottom" id="3YK-Xc-Bk5"/>
+                            <constraint firstItem="BTF-JZ-b9O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3i8-nA-7mP"/>
+                            <constraint firstItem="MDq-Xr-Zp1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4gP-wP-dnb"/>
+                            <constraint firstItem="e8n-3r-R0t" firstAttribute="top" secondItem="Alw-8z-gBc" secondAttribute="bottom" id="CEB-8E-TBk"/>
+                            <constraint firstItem="7cP-yQ-Y7Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CMC-Pv-ZVR"/>
+                            <constraint firstItem="Alw-8z-gBc" firstAttribute="top" secondItem="MDq-Xr-Zp1" secondAttribute="bottom" id="R0B-jB-hSf"/>
+                            <constraint firstItem="e8n-3r-R0t" firstAttribute="centerX" secondItem="xeh-WJ-Mh2" secondAttribute="centerX" id="SWU-nx-GNg"/>
+                            <constraint firstItem="MDq-Xr-Zp1" firstAttribute="top" secondItem="BTF-JZ-b9O" secondAttribute="bottom" id="U6Y-EG-Zbo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7cP-yQ-Y7Z" secondAttribute="bottom" constant="100" id="UbN-YV-uxn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MDq-Xr-Zp1" secondAttribute="trailing" id="YzE-ZH-9F0"/>
+                            <constraint firstItem="Mf2-OV-nOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iwG-4a-SVn"/>
+                            <constraint firstItem="Alw-8z-gBc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qU0-oh-JqZ"/>
+                            <constraint firstItem="MDq-Xr-Zp1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qXx-8g-0jW"/>
+                            <constraint firstItem="BTF-JZ-b9O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tyo-02-s1f"/>
+                            <constraint firstAttribute="trailing" secondItem="BTF-JZ-b9O" secondAttribute="trailing" id="uxM-c7-UJS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mf2-OV-nOL" secondAttribute="trailing" id="xWv-n4-pYX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="e8n-3r-R0t" id="b2e-8n-m0w"/>
+                        <outlet property="pageContainerView" destination="Mf2-OV-nOL" id="Lgz-J0-fpy"/>
+                        <outlet property="pageControl" destination="7cP-yQ-Y7Z" id="9tJ-J2-59R"/>
+                        <outlet property="stackView" destination="Alw-8z-gBc" id="rIE-ep-n2w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="base_background">
+            <color red="0.18799999356269836" green="0.22400000691413879" blue="0.32199999690055847" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
